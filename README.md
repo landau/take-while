@@ -17,7 +17,7 @@ function takeWhile(coll, pred, ctx) { }
 
 ```js
 var assert = require('assert');
-var takeWhile = require('./');
+var takeWhile = require('take-while');
 var is = require('is-predicate');
 
 var arr = [-2, -1, 0, 1, 2, 3];
