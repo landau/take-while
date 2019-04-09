@@ -45,7 +45,7 @@
     "eslint-plugin-prettier": "3.0.1",
     "mocha": "6.1.2",
     "nyc": "13.3.0",
-    "predicate": "1.0.0",
+    "predicate": "1.2.0",
     "prettier": "1.16.4"
   }
 }
