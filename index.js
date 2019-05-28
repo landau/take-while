@@ -9,12 +9,12 @@ function rest(arr) {
 }
 
 /**
- * Returns an array of successive items from coll while pred(item) returnsssssssssssssssssssssssssssssss true.
+ * Returns an array of successive items from coll while pred(item) returns true.
  *
  *
  * @param {Array} coll -
  * @param {Function} pred -
- * @param {object} [ctx] -
+ * @param {Object} [ctx] -
  *
  * @returns {Array} -
  */
