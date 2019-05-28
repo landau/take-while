@@ -14,7 +14,7 @@ function rest(arr) {
  *
  * @param {Array} coll -
  * @param {Function} pred -
- * @param {Object} [ctx] -
+ * @param {object} [ctx] -
  *
  * @returns {Array} -
  */
