@@ -46,6 +46,6 @@
     "mocha": "7.1.1",
     "nyc": "15.0.0",
     "predicate": "1.2.0",
-    "prettier": "1.19.1"
+    "prettier": "2.0.2"
   }
 }
