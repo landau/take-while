@@ -1,6 +1,6 @@
 {
   "name": "take-while",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Returns an array of successive items from coll while pred(item) returns true.",
   "main": "index.js",
   "files": [
