@@ -3,7 +3,7 @@
 const assert = require('assert');
 const predicate = require('predicate');
 const { describe, it } = require('mocha');
-const takeWhile = require('./');
+const takeWhile = require('.');
 
 describe('takeWhile', () => {
   it('should return all negative numbers', () => {
