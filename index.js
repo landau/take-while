@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 function first(arr) {
   return arr[0];

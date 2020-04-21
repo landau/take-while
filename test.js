@@ -1,17 +1,18 @@
-'use strict';
+"use strict";
 
-const assert = require('assert');
-const predicate = require('predicate');
-const { describe, it } = require('mocha');
-const takeWhile = require('.');
+const assert = require("assert");
+const takeWhile = require(".");
 
-describe('takeWhile', () => {
-  it('should return all negative numbers', () => {
-    const arr = [-2, -1, 0, 1, 2, 3];
-    assert.deepEqual(takeWhile(arr, predicate.neg), [-2, -1]);
-  });
+const isNegative = (n) => n < 0;
 
-  it('should return an empty array for no initial matcher', () => {
-    assert.deepEqual(takeWhile([1], predicate.neg), []);
-  });
-});
+assert.deepEqual(
+  takeWhile([-2, -1, 0, 1, 2, 3], isNegative),
+  [-2, -1],
+  "should return all negative numbers"
+);
+
+assert.deepEqual(
+  takeWhile([1], isNegative),
+  [],
+  "should return an empty array for no initial matcher"
+);
