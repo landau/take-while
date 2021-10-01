@@ -43,6 +43,6 @@
     "eslint-plugin-jsdoc": "36.1.0",
     "eslint-plugin-prettier": "4.0.0",
     "nyc": "15.1.0",
-    "prettier": "2.4.0"
+    "prettier": "2.4.1"
   }
 }
